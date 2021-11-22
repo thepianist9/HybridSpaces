@@ -11,4 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChatScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/ChatSceneAR.unity
+    guid: f7ad364b79a4343779c8f4acfba3c121
+  m_configObjects:
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: bc74da74b749145e1960154a4088b2cb, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e41fc89214b2f41e89e8d3e598ddca69, type: 2}

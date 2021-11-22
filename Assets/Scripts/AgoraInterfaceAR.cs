@@ -4,10 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using agora_gaming_rtc;
 
-public class AgoraInterface : MonoBehaviour
+public class AgoraInterfaceAR : MonoBehaviour
 {
     private string appId = "f44c0ba5267c4fa295f8e0afdc661da5";
     private string channelKey = "";
+    private static int totalUsers = 0;
 
     public IRtcEngine mRtcEngine;
 
@@ -42,6 +43,7 @@ public class AgoraInterface : MonoBehaviour
         mRtcEngine.OnUserOffline = OnUserOffline;
 
         mRtcEngine.EnableVideo();
+        mRtcEngine.EnableLocalVideo(false);
         mRtcEngine.EnableVideoObserver();
         mRtcEngine.JoinChannelByKey(channelKey, channelName, null, 0);
 
@@ -86,9 +88,10 @@ public class AgoraInterface : MonoBehaviour
         
         //create game object
         GameObject go;
-        go = GameObject.CreatePrimitive(PrimitiveType.Plane);
-        go.transform.position = new Vector3(0f, 1.0f, .0f);
-        go.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+        go = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        go.name = uid.ToString();
+        go.transform.position = getNextCubePosition();
+        go.transform.localScale = new Vector3(2f, 2f, 2f);
         go.transform.Rotate(new Vector3(-90.0f, -.0f, -.0f));
         go.name = uid.ToString();
         
@@ -100,6 +103,22 @@ public class AgoraInterface : MonoBehaviour
 
         mRemotePeer = uid;
 
+    }
+    Vector3 getNextCubePosition()
+    {
+        totalUsers += 1;
+        GameObject go = GameObject.Find("Sphere");
+        float x = 0;
+        if (go != null)
+        {
+            x = go.transform.position.x + totalUsers * 1.5f;
+        }
+        else
+        {
+            x = Random.Range (-2.0f, 2.0f); 
+        }
+
+        return new Vector3(x, 0, 8.17f);
     }
 
     public string getSdkVersion()

@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using agora_utilities;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UIElements;
 #if(UNITY_2018_3_OR_NEWER)
     using UnityEngine.iOS;
     using UnityEngine.Android;
@@ -13,6 +14,7 @@ using UnityEngine.SceneManagement;
 public class ButtonHandle : MonoBehaviour
 {
     private static AgoraInterface app = null;  
+    private int dropDownValue = 0;
     // Start is called before the first frame update
     IEnumerator Start()
     {
@@ -82,13 +84,22 @@ public class ButtonHandle : MonoBehaviour
 
     private void OnJoinButtonClicked()
     {
+
+        
         Debug.Log("Join Button Clicked");
         //get channel name
         GameObject input1 = GameObject.Find("ChannelName");
         InputField channelName = input1.GetComponent<InputField>();
-
+        //get channel key
         GameObject input2 = GameObject.Find("ChannelKey");
         InputField channelKey = input2.GetComponent<InputField>();
+        //get dropdown value
+        GameObject mDropdown = GameObject.Find("Mode");
+        Dropdown dropDown = mDropdown.GetComponent<Dropdown>();
+        dropDownValue = dropDown.value;
+        string mode = dropDown.options[dropDownValue].text;
+        
+        Debug.Log("mode:" + mode);
         //init agora engine
         if (ReferenceEquals(app, null))
         {
@@ -98,7 +109,23 @@ public class ButtonHandle : MonoBehaviour
         //join channel
         app.joinChannel(channelKey.text,channelName.text);
         SceneManager.sceneLoaded += OnSceneFinishedLoading;
-        SceneManager.LoadScene("ChatScene", LoadSceneMode.Single);
+        
+        //loading scene
+        if (mode.Equals("Normal Mode"))
+        {
+            SceneManager.LoadScene("ChatScene", LoadSceneMode.Single);
+        }
+        if (mode.Equals("AR Mode"))
+        {
+            SceneManager.LoadScene("ChatSceneAR", LoadSceneMode.Single);
+        }
+
+        if (mode.Equals("Interactive Mode"))
+        {
+            //TODO
+        }
+
+
     }
 
     private void OnLeaveButtonClicked()
