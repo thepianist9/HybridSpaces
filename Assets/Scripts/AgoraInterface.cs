@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class AgoraInterface : MonoBehaviour
 {
     private string appId = "f44c0ba5267c4fa295f8e0afdc661da5";
     private string channelKey = "";
+    private int totalUsers;
 
     public IRtcEngine mRtcEngine;
 
@@ -49,6 +51,7 @@ public class AgoraInterface : MonoBehaviour
 
     public void leaveChannel()
     {
+        totalUsers -= 1;
         Debug.Log("leaving channel");
         if (mRtcEngine == null)
         {
@@ -86,9 +89,9 @@ public class AgoraInterface : MonoBehaviour
         
         //create game object
         GameObject go;
-        go = GameObject.CreatePrimitive(PrimitiveType.Plane);
-        go.transform.position = new Vector3(0f, 1.0f, .0f);
-        go.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+        go = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        go.transform.position = getNextCubePosition();
+        go.transform.localScale = new Vector3(2f, 2f, 2f);
         go.transform.Rotate(new Vector3(-90.0f, -.0f, -.0f));
         go.name = uid.ToString();
         
@@ -102,6 +105,16 @@ public class AgoraInterface : MonoBehaviour
 
     }
 
+    Vector3 getNextCubePosition()
+    {
+        int radius = 5;
+        float theta = 2 * Mathf.PI / totalUsers;
+        float x = Mathf.Sin(theta) * radius;
+        float y = Mathf.Sin(theta) * radius;
+
+        return new Vector3(x, y, 2);
+    }
+
     public string getSdkVersion()
     {
         return IRtcEngine.GetSdkVersion();
@@ -109,7 +122,7 @@ public class AgoraInterface : MonoBehaviour
     private void OnUserOffline(uint uid, USER_OFFLINE_REASON reason)
     {
         Debug.Log("User with id: "+uid+" has left the channel");
-        
+        totalUsers -= 1;
         //remove gameobject from scene
         GameObject go = GameObject.Find(uid.ToString());
         if (!ReferenceEquals(go, null))
