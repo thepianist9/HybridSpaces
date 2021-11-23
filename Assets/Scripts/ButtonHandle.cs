@@ -5,7 +5,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
-
+#if(UNITY_2018_3_OR_NEWER)
+using UnityEngine.iOS;
+using UnityEngine.Android;
+#endif
 
 public class ButtonHandle : MonoBehaviour
 {

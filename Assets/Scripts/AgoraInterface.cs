@@ -91,7 +91,7 @@ public class AgoraInterface : MonoBehaviour
         GameObject go;
         go = GameObject.CreatePrimitive(PrimitiveType.Cube);
         go.transform.position = getNextCubePosition();
-        go.transform.localScale = new Vector3(2f, 2f, 2f);
+        go.transform.localScale = new Vector3(1f, 1f, 1f);
         go.transform.Rotate(new Vector3(-90.0f, -.0f, -.0f));
         go.name = uid.ToString();
         
@@ -107,12 +107,13 @@ public class AgoraInterface : MonoBehaviour
 
     Vector3 getNextCubePosition()
     {
-        int radius = 5;
+        totalUsers += 1;
+        int radius = 2;
         float theta = 2 * Mathf.PI / totalUsers;
         float x = Mathf.Sin(theta) * radius;
         float y = Mathf.Sin(theta) * radius;
-
-        return new Vector3(x, y, 2);
+        Debug.Log("x: "+x+" y: "+y);
+        return new Vector3(x, .0f, 3.0f);
     }
 
     public string getSdkVersion()

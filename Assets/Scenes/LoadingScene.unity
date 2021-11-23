@@ -500,7 +500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pb: {fileID: 200915153}
-  Valuer: -33
+  Valuer: 0
 --- !u!4 &1385677472
 Transform:
   m_ObjectHideFlags: 0
