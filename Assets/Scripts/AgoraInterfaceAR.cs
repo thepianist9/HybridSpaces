@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using agora_gaming_rtc;
+// using UnityEditor.iOS;
+// using UnityEngine.Jobs;
 
 public class AgoraInterfaceAR : MonoBehaviour
 {
@@ -109,9 +111,15 @@ public class AgoraInterfaceAR : MonoBehaviour
         totalUsers += 1;
         GameObject go = GameObject.Find("Sphere");
         float x = 0;
+        float z = 0;
         if (go != null)
-        {
-            x = go.transform.position.x + totalUsers * 1.5f;
+        { 
+            int radius = 2;
+            float theta = 2 * Mathf.PI / totalUsers;
+            x = Mathf.Cos(theta) * radius;
+            z = Mathf.Sin(theta) * radius;
+            Debug.Log("x: "+x+" z: "+z);
+            return new Vector3(x, .0f, z);
         }
         else
         {
