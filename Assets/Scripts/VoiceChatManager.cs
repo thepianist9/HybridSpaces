@@ -60,7 +60,10 @@ public class VoiceChatManager : MonoBehaviourPunCallbacks
     // Update is called once per frame
     public override void OnJoinedRoom()
     {
+        _rtcEngine.EnableVideo();
+        _rtcEngine.EnableVideoObserver();
         _rtcEngine.JoinChannel(PhotonNetwork.CurrentRoom.Name);
+        
     }
 
     public override void OnLeftRoom()
@@ -77,4 +80,5 @@ public class VoiceChatManager : MonoBehaviourPunCallbacks
     {
         IRtcEngine.Destroy();
     }
+    
 }
