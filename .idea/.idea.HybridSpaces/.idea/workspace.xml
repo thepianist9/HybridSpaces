@@ -1,250 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b719828-bc2b-439e-880f-41ac754209f4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HybridSpaces/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HybridSpaces/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Light.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Light.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Table_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Table_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Lighting Settings 1.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Lighting Settings 1.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Lighting Settings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Lighting Settings.lighting.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/Demo Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/Demo Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Door_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Door_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials/Door_1_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials/Door_1_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials/Material 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials/Material 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials/Material.001.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials/Material.001.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials/Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials/Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials/New Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials/New Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials/PlasterWhite0147_1_S.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials/PlasterWhite0147_1_S.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials/TexturesCom_WoodFine0035_1_seamless_S.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Materials/TexturesCom_WoodFine0035_1_seamless_S.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/OfficeRoom.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/OfficeRoom.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/Door_1_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/Door_1_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/Door_1_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/Door_1_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/Door_1_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/Door_1_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/Plaster Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/Plaster Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/TexturesCom_LandscapeCity0104_3_M.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/TexturesCom_LandscapeCity0104_3_M.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/TexturesCom_PlasterWhite0147_1_seamless_S.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/TexturesCom_PlasterWhite0147_1_seamless_S.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/TexturesCom_WoodFine0035_1_seamless_S.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/TexturesCom_WoodFine0035_1_seamless_S.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/TexturesCom_WoodFine0035_1_seamless_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Demo/OfficeRoom/Textures/TexturesCom_WoodFine0035_1_seamless_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Armchair_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Armchair_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Armchair_2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Armchair_2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Armchair_3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Armchair_3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Armchair_4.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Armchair_4.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Floor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Floor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/FloorLamp_1_Off.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/FloorLamp_1_Off.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/FloorLamp_1_On.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/FloorLamp_1_On.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/FloorPlant_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/FloorPlant_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/FloorPlant_Cutot.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/FloorPlant_Cutot.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Grandmother_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Grandmother_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Grandmother_Fade.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Grandmother_Fade.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Material.003.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Material.003.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Monitor_1_off.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Monitor_1_off.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Monitor_1_on.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Monitor_1_on.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/NestingTable_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/NestingTable_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/No Name.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/No Name.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Objects_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Objects_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Objects_1_Fade.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/Objects_1_Fade.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/OfficeDesk_1_AO.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Materials/OfficeDesk_1_AO.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Armchair_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Armchair_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/DinnerRoom.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/DinnerRoom.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/FloorPlant_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/FloorPlant_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Floor_Lamp_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Floor_Lamp_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Frame 1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Frame 1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/Chair_8.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/Chair_8.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/FloorPlant_3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/FloorPlant_3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/Frame_1_Albedo.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/Frame_1_Albedo.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/Material.001.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/Material.001.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/Material.002.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/Material.002.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/Material.009.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/Material.009.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/Objects_2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/Objects_2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/WoodFine0019_S.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Materials/WoodFine0019_S.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Monitor_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Monitor_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/MouseKeyboard_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/MouseKeyboard_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Nesting_Table_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Nesting_Table_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Objects_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/Objects_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/OfficeChair_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/OfficeChair_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/OfficeDesk_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Models/OfficeDesk_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/Armchair_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/Armchair_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/FloorLamp_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/FloorLamp_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/FloorPlant_!.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/FloorPlant_!.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/Frame 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/Frame 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/Monitor_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/Monitor_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/MouseKeyboard_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/MouseKeyboard_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/Nesting_Table_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/Nesting_Table_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/Objects_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/Objects_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/OfficeChair_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/OfficeChair_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/OfficeDesk_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Prefabs/OfficeDesk_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Armchair_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Armchair_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Armchair_1_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Armchair_1_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Armchair_1_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Armchair_1_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Armchair_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Armchair_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Armchair_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Armchair_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Armchair_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Armchair_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/FloorPlant_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/FloorPlant_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/FloorPlant_1_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/FloorPlant_1_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/FloorPlant_1_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/FloorPlant_1_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Floor_Lamp_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Floor_Lamp_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Floor_Lamp_1_Emission.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Floor_Lamp_1_Emission.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Floor_Lamp_1_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Floor_Lamp_1_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Floor_Lamp_1_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Floor_Lamp_1_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Frame_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Frame_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Frame_1_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Frame_1_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Frame_1_Specularr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Frame_1_Specularr.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Monitor_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Monitor_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Monitor_1_Emission.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Monitor_1_Emission.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Monitor_1_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Monitor_1_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Monitor_1_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Monitor_1_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/MouseKeyboard_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/MouseKeyboard_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/MouseKeyboard_1_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/MouseKeyboard_1_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/MouseKeyboard_1_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/MouseKeyboard_1_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Nesting_Table_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Nesting_Table_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Nesting_Table_1_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Nesting_Table_1_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Nesting_Table_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Nesting_Table_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Nesting_Table_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Nesting_Table_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Nesting_Table_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Nesting_Table_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Objects_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Objects_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Objects_1_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Objects_1_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Objects_1_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/Objects_1_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/OfficeChair_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/OfficeChair_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/OfficeChair_1_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/OfficeChair_1_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/OfficeChair_1_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/OfficeChair_1_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/OfficeDesk_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/OfficeDesk_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/OfficeDesk_1_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/OfficeDesk_1_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/OfficeDesk_1_Specullar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/OfficeDesk_1_Specullar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/OfficeDesk_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Office Room Furniture/Office/Textures/OfficeDesk_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PlayerController.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PlayerController.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PlayerController.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PlayerManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PlayerManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fps.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Fps.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RoomListItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RoomListItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceChatManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VoiceChatManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="3b719828-bc2b-439e-880f-41ac754209f4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -310,8 +67,16 @@
       <workItem from="1643802522852" duration="31000" />
       <workItem from="1643802648073" duration="4092000" />
       <workItem from="1646209152658" duration="9376000" />
-      <workItem from="1646814443695" duration="1144000" />
+      <workItem from="1646814443695" duration="1508000" />
     </task>
+    <task id="LOCAL-00001" summary="created and added elements to meeting room">
+      <created>1646862281969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646862281969</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
@@ -330,5 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="created and added elements to meeting room" />
+    <option name="LAST_COMMIT_MESSAGE" value="created and added elements to meeting room" />
   </component>
 </project>
