@@ -58,6 +58,7 @@ namespace HybridSpaces
             _rtcEngine.OnJoinChannelSuccess += OnJoinChannelSuccess;
             _rtcEngine.OnUserOffline += OnUserOffline;
             _rtcEngine.OnLeaveChannel += OnLeaveChannel;
+            _rtcEngine.OnUserJoined += OnUserJoined;
             _rtcEngine.OnError += OnError;
             _rtcEngine.EnableSoundPositionIndication(true);
 
@@ -65,6 +66,11 @@ namespace HybridSpaces
             _rtcEngine.EnableVideoObserver();
             
             
+        }
+
+        private void OnUserJoined(uint uid,int elapsed )
+        {
+            PlayerManager.Instance.OnUserJoined(uid, elapsed);
         }
         
         private void OnError(int error, string msg)

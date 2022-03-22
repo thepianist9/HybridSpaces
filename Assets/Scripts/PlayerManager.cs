@@ -39,12 +39,21 @@ namespace HybridSpaces
 
         private void Awake()
         {
+            if (_instance)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                _instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
             _rtcEngine = VoiceChatManager.Instance.GetEngine();
             appId = VoiceChatManager.Instance.AppId;
             PV = GetComponent<PhotonView>();
             uid = VoiceChatManager.Instance.LocalUserId;
 
-            _rtcEngine.OnUserJoined += OnUserJoined;
+            
 
         }
 
@@ -63,9 +72,9 @@ namespace HybridSpaces
         void CreateController()
         {
 
-            PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerController"), new Vector3(0, 1, 0),
+            GameObject player = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerController"), new Vector3(0, 1, 0),
                 Quaternion.identity);
-
+            player.name = uid.ToString();
             GameObject childVideo = GetChildVideoLocation(uid);
             MakeImageVideoSurface(childVideo);
             
@@ -78,7 +87,7 @@ namespace HybridSpaces
 
         }
         
-        private void OnUserJoined(uint uid, int elapsed)
+        public void OnUserJoined(uint uid, int elapsed)
         {
             Debug.Log("user with id: " + uid.ToString() + " joined");
             
@@ -116,7 +125,7 @@ namespace HybridSpaces
 
             go.transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
             var rectTransform = go.GetComponent<RectTransform>();
-            rectTransform.sizeDelta = new Vector2(60.0f, 50.0f);
+            rectTransform.sizeDelta = new Vector2(100.0f, 100.0f);
             rectTransform.localPosition = new Vector3(rectTransform.localPosition.x, rectTransform.localPosition.y, 0);
 
             rectTransform.localRotation = new Quaternion(0, rectTransform.localRotation.y, -180.0f, rectTransform.localRotation.w);
