@@ -37,20 +37,11 @@ public class RoomManager : MonoBehaviourPunCallbacks
     {
         if (scene.buildIndex == 1) //game scene
         {
-            PhotonNetwork.Instantiate( Path.Combine("Photonprefabs", "PlayerManager"), Vector3.zero,
+           GameObject Instance = PhotonNetwork.Instantiate( Path.Combine("Photonprefabs", "PlayerManager"), Vector3.zero,
                 Quaternion.identity);
         }
     }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
+  
+    
 }

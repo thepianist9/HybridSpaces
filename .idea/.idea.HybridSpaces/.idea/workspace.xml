@@ -1,11 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b719828-bc2b-439e-880f-41ac754209f4" name="Changes" comment="" />
+    <list default="true" id="3b719828-bc2b-439e-880f-41ac754209f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HybridSpaces/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HybridSpaces/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PlayerController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PlayerManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PlayerManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fps.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Fps.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RoomManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RoomManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpatialAudio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpatialAudio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceChatManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VoiceChatManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Frameworks/UnityPlayer.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Frameworks/libMonoPosixHelper.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Frameworks/libmonobdwgc-2.0.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MacOS/FPS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/Cinemachine.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/Mono.Security.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/Photon3Unity3D.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/PhotonChat.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/PhotonRealtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/PhotonUnityNetworking.Utilities.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/PhotonUnityNetworking.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.Configuration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.Data.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.Diagnostics.StackTrace.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.Drawing.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.Globalization.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.IO.Compression.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.Net.Http.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.Numerics.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.Xml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.Transactions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.Xml.XPath.XDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.Xml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/System.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/Unity.InputSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/Unity.Timeline.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsNativeModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/UnityEngine.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/mscorlib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/netstandard.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Managed/websocket-sharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/Resources/unity_builtin_extra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/ScriptingAssemblies.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/app.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/boot.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/globalgamemanagers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/globalgamemanagers.assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/level0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/level0.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/level1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/level1.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/resources.assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/resources.assets.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/sharedassets0.assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/sharedassets0.assets.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/sharedassets1.assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/Data/sharedassets1.assets.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/DefaultPreferences.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/MainMenu.nib/designable.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/MainMenu.nib/keyedobjects.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/Resources/unity default resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HybridSpaces.app/Contents/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/AgoraEngine/Scripts/AgoraGamingSDK/videoRender/VideoSurface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AgoraEngine/Scripts/AgoraGamingSDK/deviceManager/MediaRecorder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AgoraEngine/Scripts/AgoraGamingSDK/AgoraGamingRtcEngine.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -25,7 +199,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="rider.run.widget.enabled.cache" value="false" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/HybridSpaces.app/Contents/MacOS/FPS" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -34,10 +208,10 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="747">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="747" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -68,6 +242,12 @@
       <workItem from="1643802648073" duration="4092000" />
       <workItem from="1646209152658" duration="9376000" />
       <workItem from="1646814443695" duration="1508000" />
+      <workItem from="1647858990863" duration="7436000" />
+      <workItem from="1647882286170" duration="4145000" />
+      <workItem from="1647889915619" duration="4927000" />
+      <workItem from="1647934362861" duration="14000" />
+      <workItem from="1647934385298" duration="9919000" />
+      <workItem from="1647947123754" duration="3183000" />
     </task>
     <task id="LOCAL-00001" summary="created and added elements to meeting room">
       <created>1646862281969</created>

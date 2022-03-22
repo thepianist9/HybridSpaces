@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Security.Cryptography;
+using Photon.Pun;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
 #endif
@@ -91,6 +93,8 @@ namespace StarterAssets
 
 		private bool _hasAnimator;
 
+		private PhotonView PV;
+
 		private void Awake()
 		{
 			// get a reference to our main camera
@@ -98,10 +102,17 @@ namespace StarterAssets
 			{
 				_mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
 			}
+
+			PV = GetComponent<PhotonView>();
 		}
 
 		private void Start()
 		{
+			if (!PV.IsMine)
+			{
+				Destroy(GetComponentInChildren<Camera>().gameObject);
+				Destroy(GetComponent<Rigidbody>());
+			}
 			_hasAnimator = TryGetComponent(out _animator);
 			_controller = GetComponent<CharacterController>();
 			_input = GetComponent<StarterAssetsInputs>();
@@ -115,8 +126,12 @@ namespace StarterAssets
 
 		private void Update()
 		{
-			_hasAnimator = TryGetComponent(out _animator);
+			if (!PV.IsMine)
+			{
+				return;
+			}
 			
+			_hasAnimator = TryGetComponent(out _animator);
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
