@@ -1005,14 +1005,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 274973316713855156}
-  - component: {fileID: 5323644891739036753}
   - component: {fileID: 3917522162914760202}
   - component: {fileID: 2450082924661285872}
   - component: {fileID: 2807037466161713042}
-  - component: {fileID: 4471998619149275489}
   - component: {fileID: 2907927935803627330}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: WebCamFeed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1026,8 +1024,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3203802226069786843}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.03}
-  m_LocalScale: {x: 0.38, y: 0.36, z: 0.31}
+  m_LocalPosition: {x: 0, y: 0, z: 0.05}
+  m_LocalScale: {x: 0.38, y: 0.36, z: 0.3}
   m_Children: []
   m_Father: {fileID: 6351913425207079338}
   m_RootOrder: 4
@@ -1037,33 +1035,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.00068327785, y: 1.7134526}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5042978, y: 0.5003737}
---- !u!114 &5323644891739036753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3203802226069786843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 0}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
 --- !u!33 &3917522162914760202
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1126,23 +1097,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4471998619149275489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3203802226069786843}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97d7c8fd475254bd68d6b62b258f14c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isMultiChannelWant: 0
-  _enableFlipHorizontal: 0
-  _enableFlipVertical: 0
-  videoFps: 30
-  VideoSurfaceType: 1
 --- !u!222 &2907927935803627330
 CanvasRenderer:
   m_ObjectHideFlags: 0

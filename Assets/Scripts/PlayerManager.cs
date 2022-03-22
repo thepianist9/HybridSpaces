@@ -93,7 +93,7 @@ namespace HybridSpaces
             
             GameObject childVideo = GetChildVideoLocation(uid);
             VideoSurface videoSurface = MakeImageVideoSurface(childVideo);
-            
+
             if (videoSurface != null)
             { 
                 videoSurface.SetForUser(uid);
@@ -107,8 +107,8 @@ namespace HybridSpaces
         
         public GameObject GetChildVideoLocation(uint uid)
         {
-            GameObject go = GameObject.Find("Videos");
-            GameObject childVideo = go.transform.Find($"{uid}")?.gameObject;
+            GameObject go = GameObject.Find($"{uid}");
+            GameObject childVideo = go.transform.Find("WebCamFeed")?.gameObject;
 
             if (childVideo == null)
             {
@@ -122,11 +122,7 @@ namespace HybridSpaces
         public VideoSurface MakeImageVideoSurface(GameObject go)
         {
             go.AddComponent<RawImage>();
-
-            go.transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
             var rectTransform = go.GetComponent<RectTransform>();
-            rectTransform.sizeDelta = new Vector2(100.0f, 100.0f);
-            rectTransform.localPosition = new Vector3(rectTransform.localPosition.x, rectTransform.localPosition.y, 0);
 
             rectTransform.localRotation = new Quaternion(0, rectTransform.localRotation.y, -180.0f, rectTransform.localRotation.w);
 
