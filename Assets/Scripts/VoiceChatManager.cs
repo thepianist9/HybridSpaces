@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using agora_gaming_rtc;
 using Photon.Pun;
 using UnityEngine;
-using UnityEngine.UI;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 namespace HybridSpaces
@@ -29,9 +28,12 @@ namespace HybridSpaces
         {
             return _rtcEngine;
         }
-        public uint LocalUserId
+        public uint UId
         {
-            get { return myId; }
+            get
+            {
+                return myId;
+            }   
         }
 
         private void Awake()
@@ -61,11 +63,9 @@ namespace HybridSpaces
             _rtcEngine.OnUserJoined += OnUserJoined;
             _rtcEngine.OnError += OnError;
             _rtcEngine.EnableSoundPositionIndication(true);
-
             _rtcEngine.EnableVideo();
             _rtcEngine.EnableVideoObserver();
-            
-            
+
         }
 
         private void OnUserJoined(uint uid,int elapsed )
@@ -92,6 +92,7 @@ namespace HybridSpaces
         void OnJoinChannelSuccess(string channelName, uint uid, int elapsed)
         {
             Debug.Log("Joined Channel: " + channelName);
+            
             Hashtable hash = new Hashtable();
             hash.Add("agoraID", uid.ToString());
             PhotonNetwork.SetPlayerCustomProperties(hash);
@@ -105,29 +106,17 @@ namespace HybridSpaces
         public override void OnJoinedRoom()
         {
             channelName = PhotonNetwork.CurrentRoom.Name;
+           
             _rtcEngine.JoinChannel(channelName);
 
         }
-
-        public override void OnLeftRoom()
-        {
-            _rtcEngine.LeaveChannel();
-        }
-
         private void OnDestroy()
         {
             IRtcEngine.Destroy();
             _rtcEngine = null;
         }
 
-        public void UnloadEngine()
-        {
-            if (_rtcEngine != null)
-            {
-                IRtcEngine.Destroy();
-                _rtcEngine = null;
-            }   
-        }
+  
         
         public void Leave()
         {
@@ -135,9 +124,11 @@ namespace HybridSpaces
             if (_rtcEngine == null) return;
             _rtcEngine.LeaveChannel();
             _rtcEngine.DisableVideoObserver();
-
             GameObject go = GameObject.Find($"{myId}");
             if (go != null) Destroy(go);
+            
+            _rtcEngine = null;
+            IRtcEngine.Destroy();
         }
         
         private void OnApplicationQuit()

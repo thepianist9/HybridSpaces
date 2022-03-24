@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using HybridSpaces;
 using Photon.Pun;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -26,7 +27,6 @@ public class RoomManager : MonoBehaviourPunCallbacks
         base.OnEnable();
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
-
     public override void OnDisable()
     {
         base.OnDisable();
@@ -36,9 +36,11 @@ public class RoomManager : MonoBehaviourPunCallbacks
     void OnSceneLoaded(Scene scene, LoadSceneMode loadSceneMode)
     {
         if (scene.buildIndex == 1) //game scene
-        {
+        { 
+           uint id  = GetComponent<VoiceChatManager>().UId;
            GameObject Instance = PhotonNetwork.Instantiate( Path.Combine("Photonprefabs", "PlayerManager"), Vector3.zero,
                 Quaternion.identity);
+           Instance.GetComponent<PlayerManager>().CreateController(id);
         }
     }
     

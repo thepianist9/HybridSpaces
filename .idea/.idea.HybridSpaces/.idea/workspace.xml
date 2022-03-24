@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b719828-bc2b-439e-880f-41ac754209f4" name="Changes" comment="added IDs to photon players">
+    <list default="true" id="3b719828-bc2b-439e-880f-41ac754209f4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HybridSpaces/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HybridSpaces/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Light.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Light.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/mat_wall2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/mat_wall2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PlayerController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PhotonPrefabs/PlayerController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fps.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Fps.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Launcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Launcher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RoomManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RoomManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceChatManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VoiceChatManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/Readme.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/Readme.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +33,18 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/davidvictor/Code/Unity/HybridSpaces/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/748b0cb6499d4180b8f2ed23f2c4776913c800/4e/0cc780be/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerNameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/748b0cb6499d4180b8f2ed23f2c4776913c800/f9/7c477efe/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e4b9c3bce539440f9728c3b9b15037e26600/2e/609fb2fd/Canvas.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AgoraEngine/Scripts/AgoraGamingSDK/videoRender/VideoSurface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerVideo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a5456880043e42f99b738bb12f5a48b33800/9c/c4504499/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/fe/212605da/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AgoraEngine/Scripts/AgoraGamingSDK/deviceManager/MediaRecorder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AgoraEngine/Scripts/AgoraGamingSDK/AgoraGamingRtcEngine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/748b0cb6499d4180b8f2ed23f2c4776913c800/0c/a2b27b0c/RenderPipelineManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/748b0cb6499d4180b8f2ed23f2c4776913c800/d9/e97509aa/ScriptableRuntimeReflectionSystemWrapper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,9 +62,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.43220338" />
     <property name="rider.run.widget.enabled.cache" value="false" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/HybridSpaces.app/Contents/MacOS/FPS" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -52,10 +74,10 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="1777">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="1777" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -91,7 +113,9 @@
       <workItem from="1647889915619" duration="4927000" />
       <workItem from="1647934362861" duration="14000" />
       <workItem from="1647934385298" duration="9919000" />
-      <workItem from="1647947123754" duration="6997000" />
+      <workItem from="1647947123754" duration="7245000" />
+      <workItem from="1647977108512" duration="44098000" />
+      <workItem from="1648077475204" duration="1551000" />
     </task>
     <task id="LOCAL-00001" summary="created and added elements to meeting room">
       <created>1646862281969</created>
@@ -114,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647954752191</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Video Controller Update">
+      <created>1647958035309</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647958035309</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
@@ -136,23 +167,24 @@
     <MESSAGE value="created and added elements to meeting room" />
     <MESSAGE value="2d Video Panel upd" />
     <MESSAGE value="added IDs to photon players" />
-    <option name="LAST_COMMIT_MESSAGE" value="added IDs to photon players" />
+    <MESSAGE value="Video Controller Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Video Controller Update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs</url>
-          <line>100</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" initialLine="100" containingFunctionPresentation="method 'OnUserJoined'">
+          <line>85</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" initialLine="85" containingFunctionPresentation="method 'OnUserJoined'">
             <startOffsets>
-              <option value="2592" />
+              <option value="2310" />
             </startOffsets>
             <endOffsets>
-              <option value="2657" />
+              <option value="2367" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

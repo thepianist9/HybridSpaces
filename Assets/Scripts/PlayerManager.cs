@@ -27,15 +27,14 @@ namespace HybridSpaces
             get { return _instance; }
         }
         [SerializeField] GameObject player;
-
         private uint uid;
+       
         private string appId;
         private string channelName;
 
         private GameObject feed;
         private IRtcEngine _rtcEngine;
-
-
+        
 
         private void Awake()
         {
@@ -51,61 +50,61 @@ namespace HybridSpaces
             _rtcEngine = VoiceChatManager.Instance.GetEngine();
             appId = VoiceChatManager.Instance.AppId;
             PV = GetComponent<PhotonView>();
-            uid = VoiceChatManager.Instance.LocalUserId;
+            uid = VoiceChatManager.Instance.GetComponent<VoiceChatManager>().UId;
 
             
 
         }
 
-    
-
-        // Start is called before the first frame update
-        void Start()
-        {
-            if (PV.IsMine)
-            {
-                CreateController();
-
-            }
-        }
-
-        void CreateController()
+        public void CreateController(uint uid)
         {
 
             GameObject player = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerController"), new Vector3(0, 1, 0),
                 Quaternion.identity);
             player.name = uid.ToString();
-            GameObject childVideo = GetChildVideoLocation(uid);
-            MakeImageVideoSurface(childVideo);
+            player.GetComponent<PlayerVideo>().uid = uint.Parse(player.name);
             
-            // if (videoSurface != null)
-            // { 
-            //     videoSurface.SetForUser(uid);
-            //     videoSurface.SetEnable(true);
-            //     videoSurface.SetVideoSurfaceType(AgoraVideoSurfaceType.RawImage);
-            // }
+            GameObject childVideo = GetChildVideoLocation(player.name);
+            VideoSurface videoSurface = MakeImageVideoSurface(childVideo);
+            
+            
+            
+            if (videoSurface != null)
+            {
+                
+                videoSurface.SetVideoSurfaceType(AgoraVideoSurfaceType.RawImage);
+                videoSurface.SetGameFps(30);
+                videoSurface.SetEnable(true);
+                videoSurface.SetForUser(uint.Parse(player.name));
+                
+            }
 
         }
         
         public void OnUserJoined(uint uid, int elapsed)
         {
             Debug.Log("user with id: " + uid.ToString() + " joined");
-            
-            GameObject childVideo = GetChildVideoLocation(uid);
-            VideoSurface videoSurface = MakeImageVideoSurface(childVideo);
 
+            GameObject[] remoteSpawn = GameObject.FindGameObjectsWithTag("Player");
+
+            if (remoteSpawn.Length == 1)
+            {
+                remoteSpawn[0].name = uid.ToString();
+            }
+            
+            GameObject childVideo = GetChildVideoLocation(player.name);
+            VideoSurface videoSurface = MakeImageVideoSurface(childVideo);
+            
             if (videoSurface != null)
-            { 
-                videoSurface.SetForUser(uid);
-                videoSurface.SetEnable(true);
+            {
+                videoSurface.SetForUser(uint.Parse(player.name));
                 videoSurface.SetVideoSurfaceType(AgoraVideoSurfaceType.RawImage);
+                videoSurface.SetGameFps(30);
+                videoSurface.SetEnable(true);
             }
         }
-       
-
-       
         
-        public GameObject GetChildVideoLocation(uint uid)
+        public GameObject GetChildVideoLocation(string uid)
         {
             GameObject go = GameObject.Find($"{uid}");
             GameObject childVideo = go.transform.Find("WebCamFeed")?.gameObject;
@@ -118,7 +117,6 @@ namespace HybridSpaces
 
             return childVideo;
         }
-
         public VideoSurface MakeImageVideoSurface(GameObject go)
         {
             go.AddComponent<RawImage>();
