@@ -1,9 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using agora_gaming_rtc;
 using Photon.Pun;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 namespace HybridSpaces
@@ -33,7 +35,7 @@ namespace HybridSpaces
             get
             {
                 return myId;
-            }   
+            }
         }
 
         private void Awake()
@@ -97,6 +99,8 @@ namespace HybridSpaces
             hash.Add("agoraID", uid.ToString());
             PhotonNetwork.SetPlayerCustomProperties(hash);
             myId = uid;
+            
+            
 
         }
       
@@ -115,7 +119,16 @@ namespace HybridSpaces
             IRtcEngine.Destroy();
             _rtcEngine = null;
         }
-
+        public override void OnEnable()
+        {
+            base.OnEnable();
+            SceneManager.sceneLoaded += OnSceneLoaded;
+        }
+        public override void OnDisable()
+        {
+            base.OnDisable();
+            SceneManager.sceneLoaded -= OnSceneLoaded;
+        }
   
         
         public void Leave()
@@ -134,6 +147,17 @@ namespace HybridSpaces
         private void OnApplicationQuit()
         {
             Leave();
+        }
+        
+        void OnSceneLoaded(Scene scene, LoadSceneMode loadSceneMode)
+        {
+            if (scene.buildIndex == 1) //game scene
+            {
+                GameObject GO  = PhotonNetwork.Instantiate( Path.Combine("Photonprefabs", "PlayerManager"), Vector3.zero,
+                    Quaternion.identity);
+                GO.GetComponent<PlayerManager>().CreateController(myId);
+            
+            }
         }
 
     }

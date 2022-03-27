@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Xml.Schema;
 using agora_gaming_rtc;
+using ExitGames.Client.Photon.StructWrapping;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
@@ -27,7 +28,7 @@ namespace HybridSpaces
             get { return _instance; }
         }
         [SerializeField] GameObject player;
-        private uint uid;
+        public String UId;
        
         private string appId;
         private string channelName;
@@ -50,84 +51,72 @@ namespace HybridSpaces
             _rtcEngine = VoiceChatManager.Instance.GetEngine();
             appId = VoiceChatManager.Instance.AppId;
             PV = GetComponent<PhotonView>();
-            uid = VoiceChatManager.Instance.GetComponent<VoiceChatManager>().UId;
-
-            
-
         }
 
         public void CreateController(uint uid)
         {
+            UId = uid.ToString();
 
             GameObject player = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerController"), new Vector3(0, 1, 0),
                 Quaternion.identity);
-            player.name = uid.ToString();
-            player.GetComponent<PlayerVideo>().uid = uint.Parse(player.name);
             
-            GameObject childVideo = GetChildVideoLocation(player.name);
+            player.GetComponent<PlayerVideo>().UId = UId;
+            player.name = UId;
+            GameObject childVideo = GetChildVideoLocation(player);
             VideoSurface videoSurface = MakeImageVideoSurface(childVideo);
             
-            
-            
-            if (videoSurface != null)
-            {
-                
-                videoSurface.SetVideoSurfaceType(AgoraVideoSurfaceType.RawImage);
-                videoSurface.SetGameFps(30);
-                videoSurface.SetEnable(true);
-                videoSurface.SetForUser(uint.Parse(player.name));
-                
-            }
 
         }
-        
         public void OnUserJoined(uint uid, int elapsed)
         {
             Debug.Log("user with id: " + uid.ToString() + " joined");
 
-            GameObject[] remoteSpawn = GameObject.FindGameObjectsWithTag("Player");
+           
+            GameObject remoteSpawn = GameObject.Find("PlayerController(Clone)");
+            remoteSpawn.name = uid.ToString();
+            GameObject feed = remoteSpawn.transform.Find("WebCamFeed").gameObject;
+            
+            VideoSurface videoSurface = MakeImageVideoSurface(feed);
 
-            if (remoteSpawn.Length == 1)
-            {
-                remoteSpawn[0].name = uid.ToString();
-            }
-            
-            GameObject childVideo = GetChildVideoLocation(player.name);
-            VideoSurface videoSurface = MakeImageVideoSurface(childVideo);
-            
             if (videoSurface != null)
             {
-                videoSurface.SetForUser(uint.Parse(player.name));
-                videoSurface.SetVideoSurfaceType(AgoraVideoSurfaceType.RawImage);
-                videoSurface.SetGameFps(30);
-                videoSurface.SetEnable(true);
+                // VideoSurface videoSurface = feed.GetComponent<VideoSurface>();
+               
+                videoSurface.SetForUser(uid);
+                // videoSurface.SetEnable(true);
+                // videoSurface.SetVideoSurfaceType(AgoraVideoSurfaceType.RawImage);
             }
+           
         }
         
-        public GameObject GetChildVideoLocation(string uid)
+
+        private VideoSurface MakeImageVideoSurface(GameObject go)
         {
-            GameObject go = GameObject.Find($"{uid}");
+            go.AddComponent<RawImage>();
+
+            var rectTransform = go.GetComponent<RectTransform>();
+            rectTransform.localRotation =
+                new Quaternion(0, rectTransform.localRotation.y, -180.0f, rectTransform.localRotation.w);
+
+            return go.AddComponent<VideoSurface>();
+        }
+        
+       
+        
+        public GameObject GetChildVideoLocation(GameObject go)
+        {
             GameObject childVideo = go.transform.Find("WebCamFeed")?.gameObject;
 
             if (childVideo == null)
             {
-                childVideo = new GameObject($"{uid}");
+                childVideo = new GameObject($"{UId}");
                 childVideo.transform.parent = go.transform;
             }
 
             return childVideo;
         }
-        public VideoSurface MakeImageVideoSurface(GameObject go)
-        {
-            go.AddComponent<RawImage>();
-            var rectTransform = go.GetComponent<RectTransform>();
-
-            rectTransform.localRotation = new Quaternion(0, rectTransform.localRotation.y, -180.0f, rectTransform.localRotation.w);
-
-            return go.AddComponent<VideoSurface>();
-        }
 
 
-       
+
     }
 }

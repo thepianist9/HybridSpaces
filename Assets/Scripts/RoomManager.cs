@@ -36,11 +36,8 @@ public class RoomManager : MonoBehaviourPunCallbacks
     void OnSceneLoaded(Scene scene, LoadSceneMode loadSceneMode)
     {
         if (scene.buildIndex == 1) //game scene
-        { 
-           uint id  = GetComponent<VoiceChatManager>().UId;
-           GameObject Instance = PhotonNetwork.Instantiate( Path.Combine("Photonprefabs", "PlayerManager"), Vector3.zero,
-                Quaternion.identity);
-           Instance.GetComponent<PlayerManager>().CreateController(id);
+        {
+
         }
     }
     
